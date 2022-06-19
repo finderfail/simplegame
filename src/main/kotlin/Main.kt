@@ -34,9 +34,9 @@ fun main() {
         if (shda <= 2) {
             Thread.sleep(4_000)
             if (asd <= 20) {
-                println("Егор: ${replics_main.egor_small} $asd ${replics_main.metrov1}")
+                println("${replics_main.egor_small} $asd ${replics_main.metrov1}")
                 Thread.sleep(2_000)
-                println("Илья: ${replics_main.ilya_small} ")
+                println(replics_main.ilya_small)
                 println(system.dima_end)
                 Thread.sleep(1_000)
                 // FIXME: 16.06.2022
