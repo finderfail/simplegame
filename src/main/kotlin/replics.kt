@@ -19,5 +19,5 @@ class replics {
     val egor_false = "Егор: А чего так?"
     val ilya_false = "Илья: Ну давай!"
     val lexa_false = "Алексей: Это не тяжело"
-    val dima_false = "Ладно, в следующий раз попробуешь"
+    val dima_false = "Дима: Ладно, в следующий раз попробуешь"
 }

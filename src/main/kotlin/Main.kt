@@ -92,9 +92,9 @@ fun main() {
             Thread.sleep(4_000)
             println(system.system_player_fall)
             Thread.sleep(2_000)
-            println("Алексей: ${replics_main.lexa_lose}")
+            println(replics_main.lexa_lose)
             Thread.sleep(2_000)
-            println("Илья: ${replics_main.ilya_lose}")
+            println(replics_main.ilya_lose)
             println(system.dima_end)
             Thread.sleep(1_000)
             // FIXME: 20.04.2022
@@ -111,13 +111,13 @@ fun main() {
         }
     } else {
         println(system.system_player_deny)
-        println("Егор: ${replics_main.egor_false}")
+        println(replics_main.egor_false)
         Thread.sleep(1_000)
-        println("Илья: ${replics_main.ilya_false}")
+        println(replics_main.ilya_false)
         Thread.sleep(2_000)
-        println("Алексей: ${replics_main.lexa_false}")
+        println(replics_main.lexa_false)
         Thread.sleep(1_000)
-        println("Дима: ${replics_main.dima_false}")
+        println(replics_main.dima_false)
         println(system.dima_end)
         Thread.sleep(2_000)
         if (ad == 2) {
