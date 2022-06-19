@@ -12,5 +12,4 @@ jobs:
       - run: kotlinc src/main/kotlin/verison.kt -d /tmp/verison.jar 
       - run: kotlinc src/main/kotlin/system.kt -d /tmp/system.jar 
       - run: kotlinc src/main/kotlin/error.kt -d /tmp/error.jar 
-      - run: kotlinc src/main/kotlin/Main.kt -include-runtime -d /tmp/hello.jar; -d /tmp/replics.jar; -d /tmp/verison.jar; -d /tmp/system.jar; -d /tmp/error.jar; java -jar /tmp/hello.jar
-      - run: kotlin Main.main.kts
+      - run: java -cp main.jar:/tmp/replics.jar -cp main.jar:/tmp/verison.jar -cp main.jar:/tmp/system.jar -cp main.jar:/tmp/error.jar  test.MainKt
