@@ -54,7 +54,7 @@ fun main() {
                 if (asd <= 50) {
                     println("${replics_main.lexa_win} $asd ${replics_main.metrov1}")
                     Thread.sleep(2_000)
-                    println("${replics_main.nikita_win}")
+                    println(replics_main.nikita_win)
                     Thread.sleep(10_000)
                     println("${replics_main.egor_win} $asd ${replics_main.metrov}")
                     println(system.dima_end)
