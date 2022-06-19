@@ -38,10 +38,6 @@ fun main() {
                 Thread.sleep(2_000)
                 println("Илья: ${replics_main.ilya_small} ")
                 println(system.dima_end)
-                // println("Debug:$shda")
-                // println("Debug:$reshenie")
-                // println("Debug:$ad")
-                // println("Debug:$asd")
                 Thread.sleep(1_000)
                 // FIXME: 16.06.2022
                 // STOPSHIP: 16.06.2022  
@@ -52,20 +48,12 @@ fun main() {
                 } else {
                     Thread.sleep(10_000)
                     // FIXME: 16.06.2022
-                    // println("Debug:$shda")
-                    // println("Debug:$reshenie")
-                    // println("Debug:$ad")
-                    // println("Debug:$asd")
                     // STOPSHIP: 16.06.2022
                 }
             } else {
                 if (asd <= 50) {
                     println("Алексей: ${replics_main.lexa_win} $asd ${replics_main.metrov1}")
                     Thread.sleep(2_000)
-                    // println("Debug:$shda")
-                    // println("Debug:$reshenie")
-                    // println("Debug:$ad")
-                    // println("Debug:$asd")
                     println("Никита: ${replics_main.nikita_win}")
                     Thread.sleep(10_000)
                     println("Егор: ${replics_main.egor_win} $asd ${replics_main.metrov}")
@@ -77,36 +65,16 @@ fun main() {
                         Thread.sleep(10_000)
                     } else {
                         Thread.sleep(10_000)
-                        // println("Debug:$shda")
-                        // println("Debug:$reshenie")
-                        // println("Debug:$ad")
-                        // println("Debug:$asd")
                     }
 
                 } else {
                     println("Алексей: ${replics_main.lexa_wins} $asd ${replics_main.metrov1}")
-                    // println("Debug:$shda")
-                    // println("Debug:$reshenie")
-                    // println("Debug:$ad")
-                    // println("Debug:$asd")
                     Thread.sleep(2_000)
                     println("Никита: ${replics_main.nikita_wins} $asd ${replics_main.metrov2}")
-                    // println("Debug:$shda")
-                    // println("Debug:$reshenie")
-                    // println("Debug:$ad")
-                    // println("Debug:$asd")
                     Thread.sleep(2_000)
                     println("Егор: ${replics_main.egor_wins_1}")
-                    // println("Debug:$shda")
-                    // println("Debug:$reshenie")
-                    // println("Debug:$ad")
-                    // println("Debug:$asd")
                     Thread.sleep(2_000)
                     println("Илья: ${replics_main.ilya_wins} $asd ${replics_main.metrov3}")
-                    // println("Debug:$shda")
-                    // println("Debug:$reshenie")
-                    // println("Debug:$ad")
-                    // println("Debug:$asd")
                     Thread.sleep(4_000)
                     println("Егор: ${replics_main.egor_wins_2}")
                     println(system.dima_end)
@@ -117,10 +85,6 @@ fun main() {
                         Thread.sleep(10_000)
                     } else {
                         Thread.sleep(10_000)
-                        // println("Debug:$shda")
-                        // println("Debug:$reshenie")
-                        // println("Debug:$ad")
-                        // println("Debug:$asd")
                     }
                 }
             }
@@ -129,10 +93,6 @@ fun main() {
             println(system.system_player_fall)
             Thread.sleep(2_000)
             println("Алексей: ${replics_main.lexa_lose}")
-            // println("Debug:$shda")
-            // println("Debug:$reshenie")
-            // println("Debug:$ad")
-            // println("Debug:$asd")
             Thread.sleep(2_000)
             println("Илья: ${replics_main.ilya_lose}")
             println(system.dima_end)
@@ -145,10 +105,6 @@ fun main() {
                 Thread.sleep(10_000)
             } else {
                 Thread.sleep(10_000)
-                // println("Debug:$shda")
-                // println("Debug:$reshenie")
-                // println("Debug:$ad")
-                // println("Debug:$asd")
             }
 
 
@@ -160,9 +116,6 @@ fun main() {
         println("Илья: ${replics_main.ilya_false}")
         Thread.sleep(2_000)
         println("Алексей: ${replics_main.lexa_false}")
-        // println("Debug:$reshenie")
-        // println("Debug:$ad")
-        // println("Debug:$asd")
         Thread.sleep(1_000)
         println("Дима: ${replics_main.dima_false}")
         println(system.dima_end)
@@ -174,9 +127,6 @@ fun main() {
             Thread.sleep(2_000)
         } else {
             Thread.sleep(2_000)
-            // println("Debug:$reshenie")
-            // println("Debug:$ad")
-            // println("Debug:$asd")
             // STOPSHIP: 16.06.2022  
         }
     }
