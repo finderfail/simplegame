@@ -52,11 +52,11 @@ fun main() {
                 }
             } else {
                 if (asd <= 50) {
-                    println("Алексей: ${replics_main.lexa_win} $asd ${replics_main.metrov1}")
+                    println("${replics_main.lexa_win} $asd ${replics_main.metrov1}")
                     Thread.sleep(2_000)
-                    println("Никита: ${replics_main.nikita_win}")
+                    println("${replics_main.nikita_win}")
                     Thread.sleep(10_000)
-                    println("Егор: ${replics_main.egor_win} $asd ${replics_main.metrov}")
+                    println("${replics_main.egor_win} $asd ${replics_main.metrov}")
                     println(system.dima_end)
                     Thread.sleep(1_000)
                     if (ad == 2) {
@@ -68,15 +68,15 @@ fun main() {
                     }
 
                 } else {
-                    println("Алексей: ${replics_main.lexa_wins} $asd ${replics_main.metrov1}")
+                    println("${replics_main.lexa_wins} $asd ${replics_main.metrov1}")
                     Thread.sleep(2_000)
-                    println("Никита: ${replics_main.nikita_wins} $asd ${replics_main.metrov2}")
+                    println("${replics_main.nikita_wins} $asd ${replics_main.metrov2}")
                     Thread.sleep(2_000)
-                    println("Егор: ${replics_main.egor_wins_1}")
+                    println(replics_main.egor_wins_1)
                     Thread.sleep(2_000)
-                    println("Илья: ${replics_main.ilya_wins} $asd ${replics_main.metrov3}")
+                    println("${replics_main.ilya_wins} $asd ${replics_main.metrov3}")
                     Thread.sleep(4_000)
-                    println("Егор: ${replics_main.egor_wins_2}")
+                    println(replics_main.egor_wins_2)
                     println(system.dima_end)
                     Thread.sleep(1_000)
                     if (ad == 2) {
