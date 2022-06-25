@@ -33,6 +33,7 @@ fun main() {
         // println("Debug:$ad")
         // println("Debug:$asd")
         systemtest()
+        systemtestinfunc2()
 
         if (shda <= 2) {
             Thread.sleep(4_000)

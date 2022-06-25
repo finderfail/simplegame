@@ -1,5 +1,4 @@
 import kotlin.*
-    val systemtest = main()
     fun systemtest(){
         println("Debug: JVM 1.8")
         println("Debug: Kotlin")
