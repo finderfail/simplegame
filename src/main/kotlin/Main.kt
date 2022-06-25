@@ -2,6 +2,8 @@ import replics
 import error
 import system
 import verison
+import systemtest
+import kotlin.*
 fun main() {
     println("Very not interested game!")
     val ver = verison()
@@ -30,6 +32,7 @@ fun main() {
         // println("Debug:$reshenie")
         // println("Debug:$ad")
         // println("Debug:$asd")
+        systemtest()
 
         if (shda <= 2) {
             Thread.sleep(4_000)
