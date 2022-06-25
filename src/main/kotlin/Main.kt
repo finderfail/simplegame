@@ -46,6 +46,7 @@ fun main() {
                     println(system.system_ad2)
                     Thread.sleep(10_000)
                 } else {
+                    println(system.system_ad3)
                     Thread.sleep(10_000)
                     // FIXME: 16.06.2022
                     // STOPSHIP: 16.06.2022
@@ -64,7 +65,9 @@ fun main() {
                         println(system.system_ad2)
                         Thread.sleep(10_000)
                     } else {
+                        println(system.system_ad3)
                         Thread.sleep(10_000)
+
                     }
 
                 } else {
@@ -84,7 +87,9 @@ fun main() {
                         println(system.system_ad2)
                         Thread.sleep(10_000)
                     } else {
+                        println(system.system_ad3)
                         Thread.sleep(10_000)
+
                     }
                 }
             }
@@ -104,6 +109,7 @@ fun main() {
                 println(system.system_ad2)
                 Thread.sleep(10_000)
             } else {
+                println(system.system_ad3)
                 Thread.sleep(10_000)
             }
 
@@ -126,6 +132,7 @@ fun main() {
             println(system.system_ad2)
             Thread.sleep(2_000)
         } else {
+            println(system.system_ad3)
             Thread.sleep(2_000)
             // STOPSHIP: 16.06.2022  
         }
