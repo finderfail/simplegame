@@ -40,6 +40,7 @@ fun main() {
         if (dev_test == true) {
             println("DEVELOPER MODE ENABLED!")
             systemtest()
+            // FIXME: 26.06.2022  
             systemtestinfunc2()
             println("Debug:shda $shda")
             println("Debug:reshenie $reshenie")
@@ -53,10 +54,12 @@ fun main() {
             Thread.sleep(10)
             if (systemtest12.systemtest_2 == false) {println("initializing the systemtest module succeseful!")} else {println("initializing the systemtest module failed!!!")}
             Thread.sleep(750)
+            // FIXME: 26.06.2022  
             if (system_use.test_passed == false) {println("initializing the systemtest_function module succeseful!")} else {println("initializing the systemtest_function module failed!!!")}
 
         }else {
             println("This Version hasn't debug mode!")
+            // FIXME: 26.06.2022  
         }
         if (shda <= 2) {
             Thread.sleep(4_000)

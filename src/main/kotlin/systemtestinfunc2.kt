@@ -9,6 +9,7 @@ class systemtestinfunc2 {
             println("I don't use Maven or Gradle")
             println(test_passed)
         }else{
+            // FIXME: 26.06.2022  
             println(test_failed)
         }
     }
