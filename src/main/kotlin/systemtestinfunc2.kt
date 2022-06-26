@@ -6,9 +6,9 @@ class systemtestinfunc2 {
         val testing = (1..2).random()
         if (testing == 1) {
             println("I don't use Maven or Gradle")
-            print(test_passed)
+            println(test_passed)
         }else{
-            print(test_failed)
+            println(test_failed)
         }
     }
 }
