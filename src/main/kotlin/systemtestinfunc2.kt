@@ -1,5 +1,5 @@
 class systemtestinfunc2 {
-    val system_test = "Send True to enable debug mode! or False to disable!"
+    val system_test = "Send True to enable debug mode! or press enter to disable!"
     var test_passed = true
     fun systemtestinfunc2() {
 

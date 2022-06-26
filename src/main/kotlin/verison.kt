@@ -1,3 +1,3 @@
 class verison {
-    val version = "dev-1.7.8"
+    val version = "1.7.8"
 }
