@@ -3,7 +3,8 @@ import error
 import system
 import verison
 import systemtest
-import kotlin.*
+import systemtestinfunc2
+
 fun main() {
     println("Very not interested game!")
     val ver = verison()
@@ -15,6 +16,7 @@ fun main() {
     val replics_main = replics()
     val error = error()
     val system = system()
+    val system_use = systemtestinfunc2()
     println("Вы готовы? Да - Напишите true Нет - Напишите false")
     var reshenie: Boolean? = readLine().toBoolean()
     if (reshenie == true) {
@@ -32,9 +34,19 @@ fun main() {
         // println("Debug:$reshenie")
         // println("Debug:$ad")
         // println("Debug:$asd")
-        systemtest()
-        systemtestinfunc2()
-
+        println(system_use.system_test)
+        var dev_test: Boolean? = readLine().toBoolean()
+        if (dev_test == true) {
+            println("DEVELOPER MODE ENABLED!")
+            systemtest()
+            systemtestinfunc2()
+            println("Debug:$shda")
+            println("Debug:$reshenie")
+            println("Debug:$ad")
+            println("Debug:$asd")
+        }else {
+            println("This Version hasn't debug mode!")
+        }
         if (shda <= 2) {
             Thread.sleep(4_000)
             if (asd <= 20) {
@@ -143,3 +155,4 @@ fun main() {
     }
 
 }
+
