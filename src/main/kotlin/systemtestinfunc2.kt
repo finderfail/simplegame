@@ -1,7 +1,8 @@
 class systemtestinfunc2 {
     val system_test = "Send True to enable debug mode! or False to disable!"
+    var test_passed = true
     fun systemtestinfunc2() {
-        var test_passed = true
+
         var test_failed = false
         val testing = (1..2).random()
         if (testing == 1) {
