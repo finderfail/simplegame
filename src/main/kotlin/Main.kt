@@ -4,7 +4,7 @@ import system
 import verison
 import systemtest
 import systemtestinfunc2
-
+import initializing
 fun main() {
     println("Very not interested game!")
     val ver = verison()
@@ -16,6 +16,7 @@ fun main() {
     val replics_main = replics()
     val error = error()
     val system = system()
+    val initl_l = initializing()
     val systemtest12 = systemtest()
     val system_use = systemtestinfunc2()
     println("Вы готовы? Да - Напишите true Нет - Напишите false")
@@ -46,16 +47,16 @@ fun main() {
             println("Debug:reshenie $reshenie")
             println("Debug:ad $ad")
             println("Debug:asd $asd")
-            if (error.egor_win == "org.finderfail.main.kt.replicsKt") {println("initializing the Error module succeseful!")} else {println("initializing the Error module failed!!!")}
+            if (error.egor_win == "org.finderfail.main.kt.replicsKt") {println(initl_l.error_passed)} else {println(initl_l.error_failed)}
             Thread.sleep(500)
-            if (replics_main.egor_win == "Егор: Так держать! Всегда знал что на") {println("initializing the Replics_main module succeseful!")} else {println("initializing the Replics_main module failed!!!")}
+            if (replics_main.egor_win == "Егор: Так держать! Всегда знал что на") {println(initl_l.replics_main_passed)} else {println(initl_l.replics_main_failed)}
             Thread.sleep(623)
-            if (system.dima_end == "Система: Игра окончена") {println("initializing the system module succeseful!")} else {println("initializing the system module failed!!!")}
+            if (system.dima_end == "Система: Игра окончена") {println(initl_l.system_passed)} else {println(initl_l.system_failed)}
             Thread.sleep(10)
-            if (systemtest12.systemtest_2 == false) {println("initializing the systemtest module succeseful!")} else {println("initializing the systemtest module failed!!!")}
+            if (systemtest12.systemtest_2 == false) {println(initl_l.systemtest_passed)} else {println(initl_l.systemtest_failed)}
             Thread.sleep(750)
             // FIXME: 26.06.2022  
-            if (system_use.test_passed == false) {println("initializing the systemtest_function module succeseful!")} else {println("initializing the systemtest_function module failed!!!")}
+            if (system_use.test_passed == false) {println(initl_l.systemtest_function_passed)} else {println(initl_l.systemtest_function_failed)}
 
         }else {
             println("This Version hasn't debug mode!")
