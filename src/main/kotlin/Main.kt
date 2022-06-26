@@ -40,10 +40,10 @@ fun main() {
             println("DEVELOPER MODE ENABLED!")
             systemtest()
             systemtestinfunc2()
-            println("Debug:$shda")
-            println("Debug:$reshenie")
-            println("Debug:$ad")
-            println("Debug:$asd")
+            println("Debug:shda $shda")
+            println("Debug:reshenie $reshenie")
+            println("Debug:ad $ad")
+            println("Debug:asd $asd")
         }else {
             println("This Version hasn't debug mode!")
         }
