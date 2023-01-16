@@ -75,7 +75,7 @@ fun main() {
                 // FIXME: 16.06.2022
                 // STOPSHIP: 16.06.2022  
                 if (ad == 2) {
-                    println(system.system_ad1)
+                  //  println(system.system_ad1)
                     println(system.system_ad2)
                     Thread.sleep(10_000)
                 } else {
@@ -94,8 +94,8 @@ fun main() {
                     println(system.dima_end)
                     Thread.sleep(1_000)
                     if (ad == 2) {
-                        println(system.system_ad1)
-                        println(system.system_ad2)
+                       // println(system.system_ad1)
+                       // println(system.system_ad2)
                         Thread.sleep(10_000)
                     } else {
                         println(system.system_ad3)
@@ -116,8 +116,8 @@ fun main() {
                     println(system.dima_end)
                     Thread.sleep(1_000)
                     if (ad == 2) {
-                        println(system.system_ad1)
-                        println(system.system_ad2)
+                      //  println(system.system_ad1)
+                       // println(system.system_ad2)
                         Thread.sleep(10_000)
                     } else {
                         println(system.system_ad3)
