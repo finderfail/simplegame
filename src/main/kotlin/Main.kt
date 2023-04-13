@@ -34,36 +34,8 @@ fun main() {
         println("Шина покатилась")
         println()
         val shda = (1..3).random()
-        // println("Debug:$shda")
-        // println("Debug:$reshenie")
-        // println("Debug:$ad")
-        // println("Debug:$asd")
         println(system_use.system_test)
-        var dev_test: Boolean? = readLine().toBoolean()
-        if (dev_test == true) {
-            println("DEVELOPER MODE ENABLED!")
-            systemtest()
-            // FIXME: 26.06.2022  
-            systemtestinfunc2()
-            println("Debug:shda $shda")
-            println("Debug:reshenie $reshenie")
-            println("Debug:ad $ad")
-            println("Debug:asd $asd")
-            if (error.egor_win == "org.finderfail.main.kt.replicsKt") {println(initl_l.error_passed)} else {println(initl_l.error_failed)}
-            Thread.sleep(500)
-            if (replics_main.egor_win == "Егор: Так держать! Всегда знал что на") {println(initl_l.replics_main_passed)} else {println(initl_l.replics_main_failed)}
-            Thread.sleep(623)
-            if (system.dima_end == "Система: Игра окончена") {println(initl_l.system_passed)} else {println(initl_l.system_failed)}
-            Thread.sleep(10)
-            if (systemtest12.systemtest_2 == false) {println(initl_l.systemtest_passed)} else {println(initl_l.systemtest_failed)}
-            Thread.sleep(750)
-            // FIXME: 26.06.2022  
-            if (system_use.test_passed == false) {println(initl_l.systemtest_function_passed)} else {println(initl_l.systemtest_function_failed)}
-
-        }else {
-            println("This Version hasn't debug mode!")
-            // FIXME: 26.06.2022  
-        }
+        
         if (shda <= 2) {
             Thread.sleep(4_000)
             if (asd <= 20) {
